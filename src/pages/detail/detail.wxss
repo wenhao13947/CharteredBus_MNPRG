@@ -1,0 +1,15 @@
+page{
+  display: flex;
+  flex-flow: column wrap;
+}
+text{
+  border-bottom: 0.5rpx solid black;
+}
+.title{
+  font-weight:  600;
+  border-left: 0.5rpx solid black;
+  padding-left: 5rpx;
+}
+view{  
+  margin: 1%;
+}

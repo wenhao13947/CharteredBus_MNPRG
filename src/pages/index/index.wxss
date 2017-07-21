@@ -1,0 +1,50 @@
+.container{
+  width: 100%;
+}
+.search{
+  display: flex;
+  flex:1;
+}
+.txtSearch{
+  margin: 1%;
+  border-bottom: 4rpx solid black;
+  width: 75%;
+  margin-left: 2%;
+}
+.btnSearch{
+  align-items: center;
+  width:18%;
+  height: 60rpx;
+  font-size: 18rpx;
+}
+.carDetail{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-wrap: row wrap;
+  /* border-bottom: 3rpx solid #C0C0C0; */
+  padding:2%;
+}
+.fLine{
+  display: flex;
+  justify-content:  space-between;
+}
+.carCode{
+  color: red;
+  font-family: '黑体';
+}
+.pNumber{
+  font-family:  'Times New Roman', Times, serif;
+}
+.sLine{
+  display: flex;
+  justify-content:  space-between;
+}
+.vDate{
+  font-size: 28rpx;
+  color: #64A9B3;
+}
+
+.tLine{
+  width: 100%;
+}

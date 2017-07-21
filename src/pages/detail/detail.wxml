@@ -1,0 +1,99 @@
+<view class="containner">
+  <view class="enterprise">
+    <text class="title">申请单位：</text>
+    <text>{{table[0].enterprise}}</text>
+  </view>
+  <view class="countryType">
+    <text class="title">经营范围：</text>
+    <text>{{table[0].businessArea}}</text>
+  </view>
+  <view class="carAerea">
+    <text class="title">车牌号码:</text>
+    <text>{{table[0].carCode}}</text>
+    <text class="title">区域范围：</text>
+    <text>{{table[0].countryType}}</text>
+  </view>
+  <view class="szAez">
+    <text class="title">起点：</text>
+    <text>{{table[0].startZone}}</text>
+    <text class="title">终点：</text>
+    <text>{{table[0].endZone}}</text>
+    <text class="title">车型等级：</text>
+    <text>{{table[0].vehicleType}}</text>
+    <text class="title">座位数： </text>
+    <text>{{table[0].vehicleSeat}}</text>
+    <text class="title">车籍地：</text>
+    <text>{{}}</text>
+  </view>
+  <view class="passLine">
+    <text class="title">途径线路：</text>
+    <text>{{table[0].passLine}}</text>
+  </view>
+  <view class="miApsg">
+    <text class="title">往返里程合计： </text>
+    <text>{{table[0].mileage}}</text>
+    <text class="title">载客数：</text>
+    <text>{{table[0].passengers}}</text>
+  </view>
+  <view class="dateValid">
+    <text class="title">线路牌有效期：</text>
+    <text>{{table[0].startDate}}→{{table[0].endDate}}</text>
+    <!-- <text class="title">经营有效期：</text> -->
+    <text>{{table[0].insDate}}</text>
+  </view>
+  <!-- <view class="startZone">
+    <text class="title">起点省市县： </text>
+    <text>{{}}</text>
+  </view>
+  <view class="endZone">
+    <text class="title">终点省市县： </text>
+    <text>{{}}</text>
+  </view> -->
+  <view class="carLD">
+    <text class="title">车辆等级： </text>
+    <text>{{table[0].carDegree}}</text>
+    <text class="title">入户日期： </text>
+    <text>{{table[0].joinDate}}</text>
+  </view>
+  <view class="numAvd">
+    <text class="title">道路运输证号： </text>
+    <text>{{table[0].carLicence}}</text>
+    <text class="title">保险有效期： </text>
+    <text>{{table[0].insDate}}</text>
+  </view>
+  <view class="lvdAbp">
+    <text class="title">等级评定有效期： </text>
+    <text>{{table[0].degreeDate}}</text>
+    <text class="title">是否往返载客： </text>
+    <text>{{table[0].gbPsg}}</text>
+  </view>
+  <view class="drvAair">
+    <text class="title">行驶证有效期： </text>
+    <text>{{table[0].dlvDate}}</text>
+    <text class="title">行程首日接韩国凌晨航班： </text>
+    <text>{{table[0].drAir}}</text>
+  </view>
+  <view class="driverInfo">
+    <text class="title">驾驶员信息</text>
+  </view>
+  <view class="driver1Info">
+    <text class="title">姓名： </text>
+    <text>{{table[0].driver1Name}}</text>
+    <text class="title">从业资格证号： </text>
+    <text>{{table[0].driver1Num}}</text>
+    <text class="title">从业资格类型： </text>
+    <text>{{table[0].drver1Type}}</text>
+    <text class="title">从业资格证有效期： </text>
+    <text>{{table[0].driver1Date}}</text>
+  </view>
+  <view class="driver2Info">
+    <text class="title">姓名：</text>
+    <text>{{table[0].driver2Name}}</text>
+    <text class="title">从业资格证号： </text>
+    <text>{{table[0].driver2Num}}</text>
+    <text class="title">从业资格类型： </text>
+    <text>{{table[0].drver2Type}}</text>
+    <text class="title">从业资格证有效期： </text>
+    <text>{{table[0].driver2Date}}</text>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="search">
+    <input class="txtSearch" type="text" placeholder="请输入车牌" bindblur="btnSearch"/>
+    <button class="btnSearch" plain="true" size="mini">搜  索</button> 
+    <!-- <form bindsubmit="btnSearch">
+    <input  class="txtSearch" type="text" placeholder="请输入车牌"/>
+    <button class="btnSearch" formType="submit" plain="true">搜  索</button>
+    </form> -->
+  </view>
+   <!-- <navigator url="{{url}}" wx:for="{{cars}}">
+    <scroll-view scroll-y="true" class="carDetail">
+      <view class="fLine">
+        <text class="carCode">{{item.carCode}}</text>
+        <text class="line">{{item.startZone}}→{{item.endZone}}</text>
+        <text class="pNumber">{{item.printNumber}}</text>
+      </view>
+      <view class="sLine">
+        <text class="vDate">{{item.startDate}}→{{item.endDate}}</text>
+        <text class="vDate">驾驶员：张  三</text>
+      </view>
+      <view class="tLine">
+        <text class="enterprise">{{item.enterprise}}</text>
+      </view>
+    </scroll-view>
+  </navigator>  -->
+
+   <scroll-view scroll-y="true" class="carDetail" wx:for="{{cars}}">
+    <navigator url="{{url}}?jobId={{item.jobId}}">
+      <view class="fLine">
+        <text class="carCode">{{item.carCode}}</text>
+        <text class="line">{{item.startZone}}→{{item.endZone}}</text>
+        <text class="pNumber">{{item.printNumber}}</text>
+      </view>
+      <view class="sLine">
+        <text class="vDate">{{item.startDate}}→{{item.endDate}}</text>
+        <text class="vDriver">{{item.driver1Name}}  {{item.driver2Name}}</text>
+      </view>
+      <view class="tLine">
+        <text class="enterprise">{{item.enterprise}}</text>       
+      </view>  
+      <view class="fLine">
+        <text>-------------------------------------------------------</text>       
+      </view>    
+    </navigator>
+  </scroll-view> 
+</view>

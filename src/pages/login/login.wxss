@@ -1,0 +1,38 @@
+/* src/pages/login/login.wxss */
+/* .container{
+  display: flex;
+  flex-flow: row nowrap;
+} */
+.login{
+  margin: 15%;
+}
+label{
+  width: 25%;
+}
+.userName{
+  display: flex;
+  flex-flow: row nowrap;
+}
+ .passWord{
+   margin-top: 8%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+input{
+  width:60%;
+  border-bottom: 4rpx solid black;
+}
+.grpLogin{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10%;
+}
+button{
+  margin-left:20%;
+}
+.notice{
+  color:#808080;
+  margin: 5%;
+  display: flex;
+  flex-flow: column wrap;
+}

@@ -1,0 +1,26 @@
+<!--src/pages/login/login.wxml-->
+<view class="container">
+  <view class="header"></view>
+  <view class="login">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="userName">
+        <label>用户名：</label>
+        <input name="userName" placeholder="请输入用户名" />
+      </view>
+      <view class="passWord">
+        <label>密\r\n\r\n\r\n码：</label>
+        <input name="psw" placeholder="请输入密码" password="true" />
+      </view>
+      <!-- <button size="mini" plain="true" form-type="reset">重置</button> -->
+      <view class="grpLogin">
+      <checkbox value="cbxRem">自动登录</checkbox>
+      <button size="mini" plain="true" form-type="submit">登录</button> 
+      </view>
+    </form>
+  </view>
+  <view class="notice">
+  <text>使用须知：</text>
+    <text>1. 小程序使用过程中有疑问可联系新远公司；</text>
+    <text>2. 此微信小程序只作测试使用，我方不承诺对其更新维护。</text>
+  </view>
+</view>

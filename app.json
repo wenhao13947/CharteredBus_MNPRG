@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "src/pages/login/login",
+    "src/pages/profile/profile",
+    "src/pages/index/index",
+    "src/pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "包车备案查询",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "src/pages/index/index",
+        "text": "首页",
+        "iconPath": "src/images/car.png",
+        "selectedIconPath": "src/images/car.png"
+      },
+      {
+        "pagePath": "src/pages/profile/profile",
+        "text": "我的",
+        "iconPath": "src/images/profile.png",
+        "selectedIconPath": "src/images/car.png"
+      }
+    ]
+  }
+}

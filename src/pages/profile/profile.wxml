@@ -1,0 +1,18 @@
+<!--src/pages/profile/profile.wxml-->
+<view class="container">
+<view class="header"></view>
+<view class="info">
+<text>单位名称：</text>
+<text>{{}}</text>
+<text>负责人：</text>
+<text>{{}}</text>
+<text>经办人：</text>
+<text>{{}}</text>
+<text>行政许可使用有效期：</text>
+<text>{{}}</text>
+<text>包车备案使用有效期：</text>
+<text>{{}}</text>
+<button size="default" plain="true">我要开票</button>
+<button>我要缴费</button>
+</view>
+</view>
